@@ -1,25 +1,16 @@
-# Various IDEs and Editors
-.vscode/
-.idea/
-**/*~
-
-# Mac OSX temporary files
-.DS_Store
-**/.DS_Store
-
-# dfx temporary files
+# DFX generated files
 .dfx/
-
-# generated files
-**/declarations/
-
-# rust
-target/
-
-# frontend code
-node_modules/
-dist/
-.svelte-kit/
-
-# environment variables
 .env
+
+# Node dependencies
+/node_modules
+/src/dkeeper_frontend/node_modules
+
+# Build output
+/src/dkeeper_frontend/dist
+
+# OS generated files
+.DS_Store
+
+# Ignore custom data folders
+my data/
